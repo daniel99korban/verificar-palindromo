@@ -1,0 +1,51 @@
+body{
+    font-family: Montserrat;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: rgb(22, 150, 150);
+}
+
+.verificar-palindromo{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 100px;
+}
+
+.verificar-palindromo details p{
+    color:white;
+    text-align: left;
+}
+
+details{
+    margin-bottom: 20px;
+}
+
+button{
+    background-color: rgb(228, 226, 226);
+    margin-top: 10px;
+    padding: 7px;
+    margin-left: 190px;
+    margin-right: 190px;
+    border-radius: 20px;
+    border-style: none;
+}
+
+button:hover{
+    transition: 0.2s;
+    color: blueviolet;
+    background-color: rgb(240, 233, 233);
+}
+
+input{
+    padding: 7px;
+    border-radius: 20px;
+    border-style: dashed;
+    color:blueviolet;
+}
+
+#resposta{
+    color: white;
+    font-weight: bold;
+}
