@@ -2,7 +2,7 @@
 const resposta = document.getElementById('resposta')
 
 
-var $botao = document.getElementById("verficar");
+var $botao = document.getElementById("verificar");
 $botao.addEventListener('click', ()=>{
     let string = entrada.value;
     if(!string){// se for null, undefined ou empty

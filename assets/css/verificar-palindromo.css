@@ -38,6 +38,14 @@ button:hover{
     background-color: rgb(240, 233, 233);
 }
 
+@media (max-width: 780px)
+{
+  button{
+    width: 216px;
+    margin-left: 20%;
+   }
+}
+
 input{
     padding: 7px;
     border-radius: 20px;
