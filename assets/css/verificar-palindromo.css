@@ -51,6 +51,7 @@ input{
     border-radius: 20px;
     border-style: dashed;
     color:blueviolet;
+    outline: none;
 }
 
 #resposta{
